@@ -4,7 +4,10 @@ import os
 import time
 import sys
 
-
+def banner():
+  print("TOOL IS CREATED BY KRISHNA PRANAv")
+  print("My GitHub Link https://github.com/krishpranav")
+  print("Do Not Forget To Follow Me :)")
 
 print("""
 
@@ -1876,3 +1879,4 @@ try:
 
 except KeyboardInterrupt:
     print(" ")
+    banner()
